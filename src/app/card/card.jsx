@@ -1,9 +1,10 @@
 "use client";
+// Card.jsx
 import Link from "next/link";
-import styles from "./Card.module.css";
+import styles from "./Card.module.css";  // This line is causing the conflict
 import Container from "../Container/Container";
 import { useEffect, useState } from "react";
-// import dayjs from "dayjs";
+
 import Image from "next/image";
 
 const Card = () => {
