@@ -2,6 +2,7 @@
 // Card.jsx
 import Link from "next/link";
 import styles from "./Card.module.css";  // This line is causing the conflict
+import Card from '../Card/Card';
 import Container from "../Container/Container";
 import { useEffect, useState } from "react";
 
