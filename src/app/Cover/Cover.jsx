@@ -1,6 +1,5 @@
-import Card from "../Card/Card";
+
 import Container from "../Container/Container";
-import Space from "../Space/Space";
 import styles from "./Cover.module.css";
 
 const Cover = () => {
